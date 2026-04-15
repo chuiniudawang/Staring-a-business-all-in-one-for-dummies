@@ -8,7 +8,7 @@ class MDBookSidebarScrollbox extends HTMLElement {
         super();
     }
     connectedCallback() {
-        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><span class="chapter-link-wrapper"><a href="introducation.html">介绍</a></span></li><li class="chapter-item expanded "><span class="chapter-link-wrapper"><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> 您的业务背景分析</a></span></li><li class="chapter-item expanded "><span class="chapter-link-wrapper"><a href="chapter_2.html"><strong aria-hidden="true">2.</strong> 完善与明确你的商业理念</a></span></li></ol>';
+        this.innerHTML = '<ol class="chapter"><li class="chapter-item expanded "><span class="chapter-link-wrapper"><a href="introducation.html">介绍</a></span></li><li class="chapter-item expanded "><span class="chapter-link-wrapper"><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> 您的业务背景分析</a></span></li><li class="chapter-item expanded "><span class="chapter-link-wrapper"><a href="chapter_2.html"><strong aria-hidden="true">2.</strong> 完善与明确你的商业理念</a></span></li><li class="chapter-item expanded "><span class="chapter-link-wrapper"><a href="chapter_3.html"><strong aria-hidden="true">3.</strong> 创建商业模式</a></span></li></ol>';
         // Set the current, active page, and reveal it if it's hidden
         let current_page = document.location.href.toString().split('#')[0].split('?')[0];
         if (current_page.endsWith('/')) {
