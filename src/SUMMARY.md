@@ -8,3 +8,4 @@
 - [寻找目标市场](./chapter_4.md)
 - [考虑加盟](./chapter_5.md)
 - [撰写商业计划书](./chapter_6.md)
+- [寻找资金](./chapter_7.md)
